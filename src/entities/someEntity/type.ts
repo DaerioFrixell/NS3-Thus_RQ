@@ -1,5 +1,7 @@
 export type SomeStore = {
-  data: number,
+  isStoreLoading: boolean
+  data: any
+  error: string | null
   getData: () => void
   removeData: () => void
-}
+};
